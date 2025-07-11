@@ -1,0 +1,31 @@
+/* Fonte bonita */
+body {
+font-family: 'Roboto', sans-serif;
+background: linear-gradient(135deg, #1e242e, #244375);
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container {
+text-align: center;
+background-color: white;
+padding: 40px;
+border-radius: 16px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+max-width: 500px;
+}
+
+h1 {
+color: #221919;
+font-size: 2.5em;
+margin-bottom: 10px;
+}
+
+p {
+color: #34495e;
+font-size: 1.2em;
+}

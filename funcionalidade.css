@@ -1,0 +1,80 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f2f5;
+padding: 30px;
+display: flex;
+justify-content: center;
+}
+
+.container {
+background: white;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+width: 100%;
+max-width: 400px;
+}
+
+h1 {
+text-align: center;
+color: #333;
+}
+
+.input-section {
+display: flex;
+gap: 10px;
+}
+
+input {
+flex: 1;
+padding: 10px;
+border-radius: 8px;
+border: 1px solid #ccc;
+}
+
+button {
+padding: 10px;
+border: none;
+background-color: #28a745;
+color: white;
+border-radius: 8px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #218838;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin-top: 20px;
+}
+
+li {
+padding: 10px;
+background-color: #eee;
+margin-bottom: 10px;
+border-radius: 8px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+li.concluida {
+text-decoration: line-through;
+color: gray;
+}
+
+li button {
+background: #dc3545;
+color: white;
+border: none;
+padding: 5px 8px;
+border-radius: 6px;
+cursor: pointer;
+}
+
+li button:hover {
+background-color: #c82333;
+}
